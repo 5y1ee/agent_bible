@@ -6,7 +6,6 @@ LangChain/LangGraph 기반 에이전트 실습 코드 모음입니다.
 
 - `coding_agent/`: 코드 생성/실행용 에이전트와 커스텀 툴
 - `PART2/web_agent/`: 웹 검색 도구를 사용하는 에이전트 예제
-- `main.py`, `main2.py`, `main3.py`: 단계별 실험 스크립트
 
 ## 실행 환경
 
@@ -21,6 +20,13 @@ pip install -r requirements.txt
 
 ```bash
 python coding_agent/agent.py
+```
+
+## requirements 갱신 CLI
+
+```bash
+python -m pip install langchain-community
+python -m pip freeze > requirements.txt
 ```
 
 ## 메모
