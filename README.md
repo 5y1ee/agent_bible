@@ -25,7 +25,7 @@ python coding_agent/agent.py
 ## requirements 갱신 CLI
 
 ```bash
-python -m pip install langchain-community
+python -m pip install -r requirements.txt
 python -m pip freeze > requirements.txt
 ```
 
