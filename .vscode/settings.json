@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/home/sangyoon/miniconda3/envs/langgraph/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
+}
